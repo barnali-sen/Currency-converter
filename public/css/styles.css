@@ -1,0 +1,70 @@
+body{
+    columns: #333333;
+    font-family: Arial;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 18px;
+    display: flex;
+    flex-direction: column;
+    min-width: 100vh;
+}
+.main-content{
+    flex-grow: 1;
+}
+header{
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+h1{
+    font-size: 64px;
+    margin-bottom: 16px;
+    margin-left: 84px;
+}
+#currencyValue{
+    margin-left: 17px;
+    padding: 10px;
+    border: 1px solid black;
+}
+label{
+    padding: 10px;
+    font-size : 16px;
+    display: block;
+}
+#fromCountry,#toCountry{
+    padding: 3px;
+    
+}
+.dropdown-content{
+    text-decoration : none;
+    padding: 30px;
+    color: rosybrown;
+}
+button{
+    padding : 10px;
+    background-color : darkgray;
+    border :1px solid black;
+}
+.btn{
+    display: block;
+    padding : 16px;
+    cursor : pointer;
+}
+.btn p{
+    font-size: 20px;
+    color:saddlebrown;
+}
+footer{
+    padding: 10px;
+    font-size : 16px;
+    border-top : 1px solid black;
+    margin : 10px;
+    
+}
+.errorMsg{
+    padding : 20px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="/css/styles.css">
+        {{>responsive}}
+        <title>currency converter</title>
+        
+    </head>
+    
+    
+        <body>
+            <div class = "main-content">
+            {{>header}}
+            <form>
+                <label for = "currencyValue">Enter your amount :
+                    <input type="number" id ="currencyValue" placeholder="Enter amount">
+                </label>
+
+                <label for = "from country">choose country code :
+                    <select name = "fromCountry" id ="fromCountry" onchange="myFunction1()">
+                    </select>
+                </label>
+
+                <label for = "to country">choose country code :
+                    <select name = "toCountry" id ="toCountry" onchange="myFunction2()">
+                    </select>
+                </label>
+
+                <div class ="btn">
+                    <button>convert</button>
+                    <p id ="messageOne"></p>
+                </div>
+            </form>
+            {{>footer}}
+            </div>
+            
+        </body>
+    
+    <script src="/js/app.js"></script>
+</html>
